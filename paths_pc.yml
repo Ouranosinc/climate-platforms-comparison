@@ -1,9 +1,0 @@
-paths:
-    project_catalog: /jarre/scenario/jlavoie/plat-comp/pcat_platform_comp.json
-    pcic_data: /tank/jlavoie/ccdp/output
-    pcat_espo: /jarre/scenario/jlavoie/ESPO-G6/cat_ESPO-G6_RDRS.json
-    ensembles: /jarre/scenario/jlavoie/plat-comp/ensembles/{domain}/{id}/{id}_{domain}_{xrfreq}_{var}_{processing_level}.zarr
-    weights_location: /exec/jlavoie/tmp/gs-weights
-    indicators: /jarre/scenario/jlavoie/plat-comp/indicators/{domain}/{id}/{id}_{domain}_{xrfreq}_{var}_{processing_level}.zarr
-    local_directory: /exec/jlavoie/tmp_eg6/
-    figures: /jarre/scenario/jlavoie/plat-comp/figures/
