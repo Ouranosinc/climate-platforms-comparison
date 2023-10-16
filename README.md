@@ -1,5 +1,5 @@
 # climate-platforms-comparison
-This repo stores the code for the paper "Comparison of two Canadian climate data portals: Are decision-makers getting consistent information?".
+This repo stores the code for the paper "Canadian Climate Data Portals: A Comparative Analysis from a User Perspective".
 
 ## Instructions
 
@@ -10,7 +10,7 @@ This repo stores the code for the paper "Comparison of two Canadian climate data
     - The code create that data, to compute the indicators and create the catalog can be found [here](https://github.com/Ouranosinc/ESPO-G).
     - TODO: add links to indicators when they become available on PAVICS.
  3. To download the data from CDCA. The catalog is created in the notebook `prepare_data.ipynb`.
-    - The daily timeseries can be found [here] (https://pavics.ouranos.ca/twitcher/ows/proxy/thredds/catalog/datasets/simulations/bias_adjusted/cmip6/pcic/CanDCS-U6/catalog.html)
+    - The daily timeseries can be found [here](https://pavics.ouranos.ca/twitcher/ows/proxy/thredds/catalog/datasets/simulations/bias_adjusted/cmip6/pcic/CanDCS-U6/catalog.html)
     - The indicators data can be found [here](https://pavics.ouranos.ca/twitcher/ows/proxy/thredds/catalog/datasets/simulations/bias_adjusted/cmip6/climatedata_ca/ensemble_statistics/catalog.html)
  4. Put your own path in `paths_example.yml` and rename it `paths_pc.yml`.
  5. Prepare the data with the notebook `prepare_data.ipynb`.

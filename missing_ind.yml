@@ -1,0 +1,58 @@
+doc: Missing indicators for plat-comp
+indicators:
+  fdd_380: 
+    base: degree_days_exceedance_date
+    cf_attrs:
+      var_name: fdd_380
+    parameters:
+      thresh: '0 degC'
+      sum_thresh: "380 K days"
+      op: '<'
+      after_date: '10-01'
+      freq: AS-JUL
+#   cdd: 
+#     base: cdd
+#     cf_attrs:
+#       var_name: cdd
+#     parameters:
+#       freq: YS
+#   hot_spell_max_length: 
+#     base: hot_spell_max_length
+#     cf_attrs:
+#       var_name: hot_spell_max_length
+#     parameters:
+#       freq: YS
+  dlyfrzthw:
+    base: dlyfrzthw
+    cf_attrs:
+      var_name: dlyfrzthw
+    parameters:
+      freq: YS
+  tn_min: 
+    base: tn_min
+    cf_attrs:
+      var_name: tn_min
+    parameters:
+      freq: QS-DEC
+#   r1mm: 
+#     base: wetdays
+#     cf_attrs:
+#       var_name: r1mm
+#     parameters:
+#       freq: AS-JAN
+#   heat_wave_frequency_20_30:
+#     base: heat_wave_frequency
+#     cf_attrs:
+#       var_name: heat_wave_frequency_20_30
+#     parameters:
+#       thresh_tasmin: 20 degC
+#       thresh_tasmax: 30 degC
+#       freq: YS
+  heat_wave_total_length_20_30:
+    base: heat_wave_total_length
+    cf_attrs:
+      var_name: heat_wave_total_length_20_30
+    parameters:
+      thresh_tasmin: 20 degC
+      thresh_tasmax: 30 degC
+      freq: YS

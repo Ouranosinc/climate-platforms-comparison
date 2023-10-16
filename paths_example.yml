@@ -1,0 +1,9 @@
+paths:
+    project_catalog: #path to the project catalog json file
+    pcic_data: #path to cdca data
+    pcat_espo: #path to the ESPO-G6-R2 (PC) catalog
+    ensembles: YOUR_PATH/plat-comp/ensembles/{domain}/{id}/{id}_{domain}_{xrfreq}_{var}_{processing_level}.zarr
+    weights_location: YOUR_PATH_easy_io/tmp/gs-weights
+    indicators: YOUR_PATH/plat-comp/indicators/{domain}/{id}/{id}_{domain}_{xrfreq}_{var}_{processing_level}.zarr
+    local_directory: YOUR_PATH_easy_io/tmp_eg6/
+    figures: YOUR_PATH/plat-comp/figures/
